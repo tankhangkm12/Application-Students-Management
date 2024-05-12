@@ -1,0 +1,41 @@
+[
+  {
+    "StudentID": null,
+    "Fullname": "Thanh Tân",
+    "IDcard": "051205005311",
+    "Email": null,
+    "Phone": "0917811763",
+    "Address": null,
+    "Gender": "Male",
+    "Major": "Kỹ thuật Phần mềm",
+    "Semester": null,
+    "Status": null,
+    "Birthday": "12-01-2005"
+  },
+  {
+    "StudentID": null,
+    "Fullname": "Hoàng Khang",
+    "IDcard": "051205005311",
+    "Email": null,
+    "Phone": "0948347976",
+    "Address": null,
+    "Gender": "Male",
+    "Major": "Kỹ thuật Tin học",
+    "Semester": null,
+    "Status": null,
+    "Birthday": "10-09-2012"
+  },
+  {
+    "StudentID": null,
+    "Fullname": "Tuấn Kiệt",
+    "IDcard": "051205005311",
+    "Email": null,
+    "Phone": "0948347976",
+    "Address": null,
+    "Gender": "Male",
+    "Major": "Kỹ thuật Điều khiển và Tự động hóa",
+    "Semester": null,
+    "Status": null,
+    "Birthday": "10-09-2012"
+  }
+]
