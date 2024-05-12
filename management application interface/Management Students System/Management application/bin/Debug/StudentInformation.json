@@ -37,5 +37,18 @@
     "Semester": null,
     "Status": null,
     "Birthday": "10-09-2012"
+  },
+  {
+    "StudentID": null,
+    "Fullname": "Huệ Chi",
+    "IDcard": "998304224324",
+    "Email": null,
+    "Phone": "902394090324",
+    "Address": null,
+    "Gender": "Female",
+    "Major": "Marketing",
+    "Semester": null,
+    "Status": null,
+    "Birthday": "12-05-2024"
   }
 ]

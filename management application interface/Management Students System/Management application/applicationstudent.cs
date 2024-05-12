@@ -57,7 +57,12 @@ namespace Management_application
         private void addstudent_Click(object sender, EventArgs e)
         {
             Addstudent student = new Addstudent();
-            student.Show();
+            student.ShowDialog();
+        }
+
+        private void buttonexit_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -32,6 +32,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Addstudent));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBoxmajor = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBoxidcard = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.textBoxemail = new System.Windows.Forms.TextBox();
             this.textBoxnumberphone = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -51,14 +55,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.labelfullname = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.pictureavt = new System.Windows.Forms.PictureBox();
             this.buttonupload = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBoxidcard = new System.Windows.Forms.TextBox();
             this.buttonEXIT = new System.Windows.Forms.Button();
             this.buttonSAVE = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.comboBoxmajor = new System.Windows.Forms.ComboBox();
+            this.pictureavt = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBoxgender.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -106,6 +106,71 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "                               ";
+            // 
+            // comboBoxmajor
+            // 
+            this.comboBoxmajor.FormattingEnabled = true;
+            this.comboBoxmajor.Items.AddRange(new object[] {
+            "Kỹ thuật Điện tử Viễn thông",
+            "Kỹ thuật Viễn thông",
+            "Kỹ thuật Mạng",
+            "Kỹ thuật Phần mềm",
+            "Kỹ thuật Máy tính",
+            "Kỹ thuật Tin học",
+            "Kỹ thuật Hệ thống thông tin",
+            "Kỹ thuật Truyền thông và Mạng máy tính",
+            "Kỹ thuật Điện",
+            "Kỹ thuật Điều khiển và Tự động hóa",
+            "Kỹ thuật Điện tử",
+            "Kỹ thuật Điện tử - Viễn thông",
+            "Kỹ thuật Công nghệ thông tin",
+            "Kinh doanh Quốc tế",
+            "Quản trị Kinh doanh",
+            "Quản lý Kinh doanh",
+            "Kinh doanh và Quản lý Dự án",
+            "Marketing",
+            "Tài chính - Ngân hàng",
+            "Quản lý Tài chính",
+            "Kế toán",
+            "Quản trị Du lịch và Dịch vụ",
+            "Quản trị Khách sạn",
+            "Quản trị Nhân sự",
+            "Quản trị Nhà nước",
+            "Quản lý Kinh doanh Điện tử",
+            "Kinh doanh Bất động sản",
+            "Quản trị Chuỗi cung ứng",
+            "Kinh doanh và Thương mại Điện tử",
+            "Quản trị Hệ thống Thông tin Kinh doanh"});
+            this.comboBoxmajor.Location = new System.Drawing.Point(164, 616);
+            this.comboBoxmajor.Name = "comboBoxmajor";
+            this.comboBoxmajor.Size = new System.Drawing.Size(551, 33);
+            this.comboBoxmajor.TabIndex = 21;
+            this.comboBoxmajor.SelectedIndexChanged += new System.EventHandler(this.comboBoxmajor_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(63, 619);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(66, 25);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "Major";
+            // 
+            // textBoxidcard
+            // 
+            this.textBoxidcard.Location = new System.Drawing.Point(164, 548);
+            this.textBoxidcard.Name = "textBoxidcard";
+            this.textBoxidcard.Size = new System.Drawing.Size(551, 30);
+            this.textBoxidcard.TabIndex = 19;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(63, 553);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(86, 25);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "ID Card";
             // 
             // textBoxemail
             // 
@@ -335,18 +400,6 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // pictureavt
-            // 
-            this.pictureavt.AccessibleName = "";
-            this.pictureavt.BackColor = System.Drawing.Color.White;
-            this.pictureavt.Location = new System.Drawing.Point(864, 89);
-            this.pictureavt.Name = "pictureavt";
-            this.pictureavt.Size = new System.Drawing.Size(218, 153);
-            this.pictureavt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureavt.TabIndex = 2;
-            this.pictureavt.TabStop = false;
-            this.pictureavt.Click += new System.EventHandler(this.pictureavt_Click);
-            // 
             // buttonupload
             // 
             this.buttonupload.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -357,22 +410,6 @@
             this.buttonupload.Text = "Upload";
             this.buttonupload.UseVisualStyleBackColor = true;
             this.buttonupload.Click += new System.EventHandler(this.buttonupload_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(63, 553);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 25);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "ID Card";
-            // 
-            // textBoxidcard
-            // 
-            this.textBoxidcard.Location = new System.Drawing.Point(164, 548);
-            this.textBoxidcard.Name = "textBoxidcard";
-            this.textBoxidcard.Size = new System.Drawing.Size(551, 30);
-            this.textBoxidcard.TabIndex = 19;
             // 
             // buttonEXIT
             // 
@@ -397,54 +434,17 @@
             this.buttonSAVE.UseVisualStyleBackColor = true;
             this.buttonSAVE.Click += new System.EventHandler(this.buttonSAVE_Click);
             // 
-            // label7
+            // pictureavt
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(63, 619);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 25);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Major";
-            // 
-            // comboBoxmajor
-            // 
-            this.comboBoxmajor.FormattingEnabled = true;
-            this.comboBoxmajor.Items.AddRange(new object[] {
-            "Kỹ thuật Điện tử Viễn thông",
-            "Kỹ thuật Viễn thông",
-            "Kỹ thuật Mạng",
-            "Kỹ thuật Phần mềm",
-            "Kỹ thuật Máy tính",
-            "Kỹ thuật Tin học",
-            "Kỹ thuật Hệ thống thông tin",
-            "Kỹ thuật Truyền thông và Mạng máy tính",
-            "Kỹ thuật Điện",
-            "Kỹ thuật Điều khiển và Tự động hóa",
-            "Kỹ thuật Điện tử",
-            "Kỹ thuật Điện tử - Viễn thông",
-            "Kỹ thuật Công nghệ thông tin",
-            "Kinh doanh Quốc tế",
-            "Quản trị Kinh doanh",
-            "Quản lý Kinh doanh",
-            "Kinh doanh và Quản lý Dự án",
-            "Marketing",
-            "Tài chính - Ngân hàng",
-            "Quản lý Tài chính",
-            "Kế toán",
-            "Quản trị Du lịch và Dịch vụ",
-            "Quản trị Khách sạn",
-            "Quản trị Nhân sự",
-            "Quản trị Nhà nước",
-            "Quản lý Kinh doanh Điện tử",
-            "Kinh doanh Bất động sản",
-            "Quản trị Chuỗi cung ứng",
-            "Kinh doanh và Thương mại Điện tử",
-            "Quản trị Hệ thống Thông tin Kinh doanh"});
-            this.comboBoxmajor.Location = new System.Drawing.Point(164, 616);
-            this.comboBoxmajor.Name = "comboBoxmajor";
-            this.comboBoxmajor.Size = new System.Drawing.Size(551, 33);
-            this.comboBoxmajor.TabIndex = 21;
-            this.comboBoxmajor.SelectedIndexChanged += new System.EventHandler(this.comboBoxmajor_SelectedIndexChanged);
+            this.pictureavt.AccessibleName = "";
+            this.pictureavt.BackColor = System.Drawing.Color.White;
+            this.pictureavt.Location = new System.Drawing.Point(864, 89);
+            this.pictureavt.Name = "pictureavt";
+            this.pictureavt.Size = new System.Drawing.Size(218, 153);
+            this.pictureavt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureavt.TabIndex = 2;
+            this.pictureavt.TabStop = false;
+            this.pictureavt.Click += new System.EventHandler(this.pictureavt_Click);
             // 
             // Addstudent
             // 
@@ -458,8 +458,10 @@
             this.Controls.Add(this.pictureavt);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Addstudent";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Student";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

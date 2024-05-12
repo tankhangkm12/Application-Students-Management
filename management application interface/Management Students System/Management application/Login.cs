@@ -14,7 +14,9 @@ namespace Management_application
     {
         public Login()
         {
+            Random random=new Random();
             InitializeComponent();
+            labelshowverification.Text=random.Next(100000, 1000000).ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,12 +39,32 @@ namespace Management_application
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonregister_Click(object sender, EventArgs e)
+        {
+            Registerform registerform = new Registerform();
+            registerform.ShowDialog();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void Login_Load(object sender, EventArgs e)
+        private void buttonlogin_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
+        }
+
+        private void buttonexit_Click(object sender, EventArgs e)
+        {
+            DialogResult result=MessageBox.Show("Do you exit ? ", "EXIT", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.OK)
+            {
+                Close();
+            }
+        }
+
+        private void labelshowverification_Click(object sender, EventArgs e)
         {
 
         }

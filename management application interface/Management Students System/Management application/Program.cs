@@ -16,7 +16,12 @@ namespace Management_application
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new applicationstudent());
+            Login login = new Login();
+            if (login.ShowDialog() == DialogResult.OK)
+            {
+
+                Application.Run(new applicationstudent());
+            }
         }
     }
 }
