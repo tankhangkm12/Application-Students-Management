@@ -52,7 +52,44 @@ namespace Management_application
 
         private void buttonlogin_Click(object sender, EventArgs e)
         {
-            DialogResult = DialogResult.OK;
+            List<Account> accountList = new List<Account>(); 
+            ManagementAccount managementAccount = new ManagementAccount();
+            accountList=managementAccount.getAccountsList();
+            errorProvider1.SetError(textBoxusername, "");
+            errorProvider1.SetError(textBoxpassword, "");
+
+            foreach (Account user in accountList)
+            {
+                errorProvider1.SetError(labelshowverification, "");
+                if (textBoxusername.Text==user.Username && textBoxpassword.Text==user.Password && textBoxverification.Text==labelshowverification.Text)
+                {
+                    DialogResult = DialogResult.OK;
+                    MessageBox.Show("Login successfull!");
+                }
+                else
+                {
+                    if (textBoxusername.Text != user.Username)
+                    {
+                        errorProvider1.SetError(textBoxusername, "Username not true ! ");
+                    }    
+                    if (textBoxpassword.Text != user.Password)
+                    {
+                        errorProvider1.SetError(textBoxpassword, "Password not true ! ");
+                    }
+                    if (!string.IsNullOrEmpty(textBoxverification.Text))
+                    {
+                        errorProvider1.SetError(labelshowverification, "Please entered verification ! ");
+                    }    
+                    if (textBoxverification.Text != labelshowverification.Text)
+                    {
+                        errorProvider1.SetError(labelshowverification, "Verification not true ! ");
+                    }    
+                } 
+                    
+            } 
+            Random random = new Random();
+            labelshowverification.Text=random.Next(100000,1000000).ToString();
+
         }
 
         private void buttonexit_Click(object sender, EventArgs e)
@@ -67,6 +104,16 @@ namespace Management_application
         private void labelshowverification_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBoxverification_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            
+        }
+
+        private void textBoxverification_DragEnter(object sender, DragEventArgs e)
+        {
         }
     }
 }

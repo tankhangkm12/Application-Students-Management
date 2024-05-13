@@ -30,6 +30,11 @@ namespace Management_application
             }
 
         }
+        public List<Account> getAccountsList()
+        {
+            ReadJson();
+            return this.accounts;
+        }
 
         public void Registeraccount(Account newaccount)
         {

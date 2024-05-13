@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelenteredlogin = new System.Windows.Forms.Panel();
@@ -46,11 +47,13 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.paneltitlelogin = new System.Windows.Forms.Panel();
             this.labeltitlelogin = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             this.panelenteredlogin.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.paneltitlelogin.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -119,6 +122,7 @@
             // 
             resources.ApplyResources(this.textBoxverification, "textBoxverification");
             this.textBoxverification.Name = "textBoxverification";
+            this.textBoxverification.DragEnter += new System.Windows.Forms.DragEventHandler(this.textBoxverification_DragEnter);
             // 
             // textBoxpassword
             // 
@@ -184,6 +188,10 @@
             this.labeltitlelogin.Name = "labeltitlelogin";
             this.labeltitlelogin.Click += new System.EventHandler(this.labeltitlelogin_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // Login
             // 
             resources.ApplyResources(this, "$this");
@@ -201,6 +209,7 @@
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.paneltitlelogin.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -224,6 +233,7 @@
         private System.Windows.Forms.TextBox textBoxusername;
         private System.Windows.Forms.Label labelshowverification;
         private System.Windows.Forms.Label labellogin;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 
