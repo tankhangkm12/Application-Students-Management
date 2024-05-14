@@ -64,5 +64,11 @@ namespace Management_application
         {
             Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            RemoveStudent removeStudent = new RemoveStudent();
+            removeStudent.ShowDialog();
+        }
     }
 }

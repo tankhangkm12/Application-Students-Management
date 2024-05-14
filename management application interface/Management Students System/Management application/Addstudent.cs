@@ -99,15 +99,16 @@ namespace Management_application
             {
                 errorProvider1.SetError(comboBoxmajor, "Please choose your major ! ");
             }
-            
+
             Students student = new Students
             {
-                Fullname= textfullname.Text,
+                Fullname = textfullname.Text,
                 Gender = radioButton1.Checked ? "Male" : radioButton2.Checked ? "Female" : "Other",
                 Birthday = birthday.Value.ToString("dd-MM-yyyy"),
                 Phone = textBoxnumberphone.Text,
                 IDcard = textBoxidcard.Text,
                 Major = comboBoxmajor.SelectedItem.ToString(),
+                codestudent = Students.setcodeStudent()
             };
             Managementstudent managamentstudent = new Managementstudent();
             managamentstudent.AddStudent(student);

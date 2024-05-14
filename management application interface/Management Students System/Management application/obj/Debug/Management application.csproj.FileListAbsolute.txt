@@ -29,3 +29,4 @@ D:\project10\management application interface\Management Students System\Managem
 D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management application.exe
 D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management application.pdb
 D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.Registerform.resources
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.RemoveStudent.resources

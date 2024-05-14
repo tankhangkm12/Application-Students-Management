@@ -69,6 +69,7 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Major.cs" />
     <Compile Include="ManagementAccount.cs" />
     <Compile Include="Managementstudent.cs" />
     <Compile Include="Program.cs" />
@@ -78,6 +79,12 @@
     </Compile>
     <Compile Include="Registerform.Designer.cs">
       <DependentUpon>Registerform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveStudent.Designer.cs">
+      <DependentUpon>RemoveStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Students.cs" />
     <EmbeddedResource Include="Addstudent.resx">
@@ -101,6 +108,9 @@
     </Compile>
     <EmbeddedResource Include="Registerform.resx">
       <DependentUpon>Registerform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveStudent.resx">
+      <DependentUpon>RemoveStudent.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

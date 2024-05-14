@@ -15,7 +15,11 @@ namespace Management_application
     {
         public Managementstudent() { }
         private List<Students> studentslist = new List<Students>();
-        
+        public List<Students> GetStudentlist()
+        {
+            ReadOldStudentlist();
+            return studentslist;
+        }
         public void ReadOldStudentlist()
         {
             try
@@ -41,6 +45,19 @@ namespace Management_application
                 File.WriteAllText(filepath, json);
                 MessageBox.Show("Saved","Notifications", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        public void Removestudent(List<Students> removestudentslist)
+        {
+            string json=JsonConvert.SerializeObject(removestudentslist, Formatting.Indented);
+            try
+            {
+            string filepath = "StudentInformation.json";
+            File.WriteAllText(filepath, json);
             }
             catch (Exception ex)
             {

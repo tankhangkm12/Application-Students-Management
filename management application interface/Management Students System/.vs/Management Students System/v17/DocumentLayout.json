@@ -3,64 +3,64 @@
   "WorkspaceRootPath": "D:\\project10\\management application interface\\Management Students System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\applicationstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\applicationstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\removestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\removestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\managementstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\managementstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\managementaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\managementaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\applicationstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\applicationstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\removestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\removestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|d:\\project10\\management application interface\\management students system\\management application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|d:\\project10\\management application interface\\management students system\\management application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\removestudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\removestudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|d:\\project10\\management application interface\\management students system\\management application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\applicationstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\applicationstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\applicationstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\applicationstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\managementstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\managementstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\applicationstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\applicationstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|d:\\project10\\management application interface\\management students system\\management application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|D:\\project10\\management application interface\\Management Students System\\management application\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB912A3A-3CB5-4F68-8141-767B0E3F8138}|Management application\\Management application.csproj|solutionrelative:management application\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,161 +70,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.cs",
-              "RelativeDocumentMoniker": "Management application\\Login.cs",
-              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.cs [Design]",
-              "RelativeToolTip": "Management application\\Login.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "RemoveStudent.cs [Design]",
+              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\RemoveStudent.cs",
+              "RelativeDocumentMoniker": "Management application\\RemoveStudent.cs",
+              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\RemoveStudent.cs [Design]",
+              "RelativeToolTip": "Management application\\RemoveStudent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T09:35:52.353Z",
+              "WhenOpened": "2024-05-13T12:02:20.522Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
+              "Title": "RemoveStudent.cs",
+              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\RemoveStudent.cs",
+              "RelativeDocumentMoniker": "Management application\\RemoveStudent.cs",
+              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\RemoveStudent.cs",
+              "RelativeToolTip": "Management application\\RemoveStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAACaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:34:14.631Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Program.cs",
               "RelativeDocumentMoniker": "Management application\\Program.cs",
               "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Program.cs",
               "RelativeToolTip": "Management application\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T14:59:27.449Z"
+              "WhenOpened": "2024-05-14T03:53:06.975Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Registerform.cs",
-              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Registerform.cs",
-              "RelativeDocumentMoniker": "Management application\\Registerform.cs",
-              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Registerform.cs",
-              "RelativeToolTip": "Management application\\Registerform.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBgAAAAAAAAA",
+              "Title": "Major.cs",
+              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Major.cs",
+              "RelativeDocumentMoniker": "Management application\\Major.cs",
+              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Major.cs",
+              "RelativeToolTip": "Management application\\Major.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:59:13.64Z"
+              "WhenOpened": "2024-05-14T03:04:32.973Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "applicationstudent.cs",
               "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\applicationstudent.cs",
               "RelativeDocumentMoniker": "Management application\\applicationstudent.cs",
               "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\applicationstudent.cs",
               "RelativeToolTip": "Management application\\applicationstudent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAhwEYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:43:58.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T16:43:58.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.cs",
-              "RelativeDocumentMoniker": "Management application\\Login.cs",
-              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.cs",
-              "RelativeToolTip": "Management application\\Login.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAgwG8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T14:59:41.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Registerform.cs [Design]",
-              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Registerform.cs",
-              "RelativeDocumentMoniker": "Management application\\Registerform.cs",
-              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Registerform.cs [Design]",
-              "RelativeToolTip": "Management application\\Registerform.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:44:26.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "applicationstudent.cs [Design]",
-              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\applicationstudent.cs",
-              "RelativeDocumentMoniker": "Management application\\applicationstudent.cs",
-              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\applicationstudent.cs [Design]",
-              "RelativeToolTip": "Management application\\applicationstudent.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T16:37:38.37Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Addstudent.cs [Design]",
-              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Addstudent.cs",
-              "RelativeDocumentMoniker": "Management application\\Addstudent.cs",
-              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Addstudent.cs [Design]",
-              "RelativeToolTip": "Management application\\Addstudent.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T02:37:56.573Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Addstudent.cs",
               "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Addstudent.cs",
               "RelativeDocumentMoniker": "Management application\\Addstudent.cs",
               "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Addstudent.cs",
               "RelativeToolTip": "Management application\\Addstudent.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEMAAAAMAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAlwHEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T08:46:57.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T08:46:57.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManagementAccount.cs",
-              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\ManagementAccount.cs",
-              "RelativeDocumentMoniker": "Management application\\ManagementAccount.cs",
-              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\ManagementAccount.cs",
-              "RelativeToolTip": "Management application\\ManagementAccount.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:30:48.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Managementstudent.cs",
               "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Managementstudent.cs",
               "RelativeDocumentMoniker": "Management application\\Managementstudent.cs",
               "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Managementstudent.cs",
               "RelativeToolTip": "Management application\\Managementstudent.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAoAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwD8AAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T11:39:23.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T11:39:23.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Account.cs",
-              "RelativeDocumentMoniker": "Management application\\Account.cs",
-              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Account.cs",
-              "RelativeToolTip": "Management application\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:05:07.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.Designer.cs",
               "RelativeDocumentMoniker": "Management application\\Login.Designer.cs",
@@ -237,20 +177,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Students.cs",
               "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Students.cs",
               "RelativeDocumentMoniker": "Management application\\Students.cs",
               "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Students.cs",
               "RelativeToolTip": "Management application\\Students.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABYAAAAXAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAiwC8AAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:39:07.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T14:39:07.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "applicationstudent.Designer.cs",
               "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\applicationstudent.Designer.cs",
               "RelativeDocumentMoniker": "Management application\\applicationstudent.Designer.cs",
@@ -258,7 +197,66 @@
               "RelativeToolTip": "Management application\\applicationstudent.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T16:39:29.763Z",
+              "WhenOpened": "2024-05-11T16:39:29.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Addstudent.cs [Design]",
+              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Addstudent.cs",
+              "RelativeDocumentMoniker": "Management application\\Addstudent.cs",
+              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Addstudent.cs [Design]",
+              "RelativeToolTip": "Management application\\Addstudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:59:54.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RemoveStudent.Designer.cs",
+              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\RemoveStudent.Designer.cs",
+              "RelativeDocumentMoniker": "Management application\\RemoveStudent.Designer.cs",
+              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\RemoveStudent.Designer.cs",
+              "RelativeToolTip": "Management application\\RemoveStudent.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T04:45:02.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "applicationstudent.cs [Design]",
+              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\applicationstudent.cs",
+              "RelativeDocumentMoniker": "Management application\\applicationstudent.cs",
+              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\applicationstudent.cs [Design]",
+              "RelativeToolTip": "Management application\\applicationstudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:57:22.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.cs",
+              "RelativeDocumentMoniker": "Management application\\Login.cs",
+              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.cs [Design]",
+              "RelativeToolTip": "Management application\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:04:18.051Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.cs",
+              "RelativeDocumentMoniker": "Management application\\Login.cs",
+              "ToolTip": "D:\\project10\\management application interface\\Management Students System\\Management application\\Login.cs",
+              "RelativeToolTip": "Management application\\Login.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAcwEIAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:04:24.467Z",
               "EditorCaption": ""
             }
           ]

@@ -20,6 +20,24 @@ namespace Management_application
         public string Semester { get; set; }
         public string Status { get; set; }
 
+        public int codestudent { get; set; }
+
+        
+        public static int setcodeStudent() 
+        {
+            Managementstudent managementstudent = new Managementstudent();
+            List<Students> studentslist=managementstudent.GetStudentlist();
+            Random random = new Random();
+            int code=random.Next(100000, 1000000);
+            for (int i=0;i<studentslist.Count; i++)
+            {
+               if (code == studentslist[i].codestudent)
+                {
+                    code= random.Next(100000, 1000000);
+                }
+            }
+            return code;
+        }
         public string Birthday { get; set; }
         public Students() 
         {
@@ -27,7 +45,7 @@ namespace Management_application
         }
         public override string ToString()
         {
-            return this.Fullname;
+            return this.Fullname + "-" +this.codestudent+"-"+this.Birthday+"-"+this.Major+"-"+this.Phone;
         }
     }
 }

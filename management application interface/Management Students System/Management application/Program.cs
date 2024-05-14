@@ -19,7 +19,6 @@ namespace Management_application
             Login login = new Login();
             if (login.ShowDialog() == DialogResult.OK)
             {
-
                 Application.Run(new applicationstudent());
             }
         }

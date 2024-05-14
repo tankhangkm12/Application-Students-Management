@@ -50,7 +50,7 @@ namespace Management_application
 
         }
 
-        private void buttonlogin_Click(object sender, EventArgs e)
+        private async void buttonlogin_Click(object sender, EventArgs e)
         {
             List<Account> accountList = new List<Account>(); 
             ManagementAccount managementAccount = new ManagementAccount();
@@ -64,7 +64,7 @@ namespace Management_application
                 if (textBoxusername.Text==user.Username && textBoxpassword.Text==user.Password && textBoxverification.Text==labelshowverification.Text)
                 {
                     DialogResult = DialogResult.OK;
-                    MessageBox.Show("Login successfull!");
+                    MessageBox.Show("Login successfull!","Notifications",MessageBoxButtons.OK);
                 }
                 else
                 {

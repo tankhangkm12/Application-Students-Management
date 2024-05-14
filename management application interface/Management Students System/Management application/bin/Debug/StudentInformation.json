@@ -2,53 +2,29 @@
   {
     "StudentID": null,
     "Fullname": "Thanh Tân",
-    "IDcard": "051205005311",
+    "IDcard": "4324234234",
     "Email": null,
-    "Phone": "0917811763",
+    "Phone": "4324234234",
     "Address": null,
     "Gender": "Male",
-    "Major": "Kỹ thuật Phần mềm",
+    "Major": "Kỹ thuật Hệ thống thông tin - KTHSTT",
     "Semester": null,
     "Status": null,
-    "Birthday": "12-01-2005"
+    "codestudent": 489776,
+    "Birthday": "14-05-2024"
   },
   {
     "StudentID": null,
     "Fullname": "Hoàng Khang",
-    "IDcard": "051205005311",
+    "IDcard": "4324234234",
     "Email": null,
-    "Phone": "0948347976",
+    "Phone": "4324234234",
     "Address": null,
     "Gender": "Male",
-    "Major": "Kỹ thuật Tin học",
+    "Major": "Kỹ thuật Hệ thống thông tin - KTHSTT",
     "Semester": null,
     "Status": null,
-    "Birthday": "10-09-2012"
-  },
-  {
-    "StudentID": null,
-    "Fullname": "Tuấn Kiệt",
-    "IDcard": "051205005311",
-    "Email": null,
-    "Phone": "0948347976",
-    "Address": null,
-    "Gender": "Male",
-    "Major": "Kỹ thuật Điều khiển và Tự động hóa",
-    "Semester": null,
-    "Status": null,
-    "Birthday": "10-09-2012"
-  },
-  {
-    "StudentID": null,
-    "Fullname": "Huệ Chi",
-    "IDcard": "998304224324",
-    "Email": null,
-    "Phone": "902394090324",
-    "Address": null,
-    "Gender": "Female",
-    "Major": "Marketing",
-    "Semester": null,
-    "Status": null,
-    "Birthday": "12-05-2024"
+    "codestudent": 900221,
+    "Birthday": "14-05-2024"
   }
 ]

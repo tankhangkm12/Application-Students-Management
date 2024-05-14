@@ -30,46 +30,46 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(applicationstudent));
             this.panelmenu = new System.Windows.Forms.Panel();
+            this.buttonexit = new System.Windows.Forms.Button();
+            this.SchoolManagement = new System.Windows.Forms.PictureBox();
+            this.TeacherManagement = new System.Windows.Forms.PictureBox();
+            this.StudentsManagement = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panelbackground = new System.Windows.Forms.Panel();
             this.panelstudent = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.paneltitle = new System.Windows.Forms.Panel();
-            this.labeltitle = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.addstudent = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.buttonexit = new System.Windows.Forms.Button();
-            this.SchoolManagement = new System.Windows.Forms.PictureBox();
-            this.TeacherManagement = new System.Windows.Forms.PictureBox();
-            this.StudentsManagement = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.paneltitle = new System.Windows.Forms.Panel();
+            this.labeltitle = new System.Windows.Forms.Label();
             this.panelmenu.SuspendLayout();
-            this.panelbackground.SuspendLayout();
-            this.panelstudent.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.paneltitle.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.addstudent)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SchoolManagement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TeacherManagement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudentsManagement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panelbackground.SuspendLayout();
+            this.panelstudent.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.addstudent)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.paneltitle.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelmenu
@@ -85,6 +85,61 @@
             this.panelmenu.Name = "panelmenu";
             this.panelmenu.Size = new System.Drawing.Size(176, 522);
             this.panelmenu.TabIndex = 0;
+            // 
+            // buttonexit
+            // 
+            this.buttonexit.BackgroundImage = global::Management_application.Properties.Resources.exit_closethesession_close_63171;
+            this.buttonexit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonexit.Location = new System.Drawing.Point(35, 433);
+            this.buttonexit.Name = "buttonexit";
+            this.buttonexit.Size = new System.Drawing.Size(86, 77);
+            this.buttonexit.TabIndex = 4;
+            this.buttonexit.UseVisualStyleBackColor = true;
+            this.buttonexit.Click += new System.EventHandler(this.buttonexit_Click);
+            // 
+            // SchoolManagement
+            // 
+            this.SchoolManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SchoolManagement.Image = global::Management_application.Properties.Resources.iconfinder_university_3992932_112615;
+            this.SchoolManagement.Location = new System.Drawing.Point(35, 339);
+            this.SchoolManagement.Name = "SchoolManagement";
+            this.SchoolManagement.Size = new System.Drawing.Size(86, 73);
+            this.SchoolManagement.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.SchoolManagement.TabIndex = 3;
+            this.SchoolManagement.TabStop = false;
+            // 
+            // TeacherManagement
+            // 
+            this.TeacherManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.TeacherManagement.Image = global::Management_application.Properties.Resources.teacher_education_school_lecture_student_icon_141984;
+            this.TeacherManagement.Location = new System.Drawing.Point(35, 236);
+            this.TeacherManagement.Name = "TeacherManagement";
+            this.TeacherManagement.Size = new System.Drawing.Size(86, 74);
+            this.TeacherManagement.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.TeacherManagement.TabIndex = 2;
+            this.TeacherManagement.TabStop = false;
+            // 
+            // StudentsManagement
+            // 
+            this.StudentsManagement.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.StudentsManagement.Image = global::Management_application.Properties.Resources.students;
+            this.StudentsManagement.Location = new System.Drawing.Point(35, 141);
+            this.StudentsManagement.Name = "StudentsManagement";
+            this.StudentsManagement.Size = new System.Drawing.Size(86, 74);
+            this.StudentsManagement.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.StudentsManagement.TabIndex = 1;
+            this.StudentsManagement.TabStop = false;
+            this.StudentsManagement.Click += new System.EventHandler(this.StudentsManagement_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Management_application.Properties.Resources.Logo_PTIT;
+            this.pictureBox7.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(139, 108);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
             // 
             // panelbackground
             // 
@@ -161,6 +216,39 @@
             this.label6.Text = "Information ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pictureBox6.Image = global::Management_application.Properties.Resources.calendar_clock_schedule_icon_icons_com_51085;
+            this.pictureBox6.Location = new System.Drawing.Point(505, 21);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(118, 101);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox5.Image = global::Management_application.Properties.Resources.ic_subject_128_28853;
+            this.pictureBox5.Location = new System.Drawing.Point(272, 21);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(118, 101);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pictureBox4.Image = global::Management_application.Properties.Resources.iconfinder_511_student_notes_books_student_notes_4212903_114956;
+            this.pictureBox4.Location = new System.Drawing.Point(38, 21);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(117, 101);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -212,72 +300,6 @@
             this.label3.Text = "Add Student";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
-            // 
-            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(982, 25);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Menu";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // paneltitle
-            // 
-            this.paneltitle.Controls.Add(this.labeltitle);
-            this.paneltitle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneltitle.Location = new System.Drawing.Point(0, 0);
-            this.paneltitle.Name = "paneltitle";
-            this.paneltitle.Size = new System.Drawing.Size(982, 63);
-            this.paneltitle.TabIndex = 0;
-            // 
-            // labeltitle
-            // 
-            this.labeltitle.BackColor = System.Drawing.Color.PowderBlue;
-            this.labeltitle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labeltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeltitle.Location = new System.Drawing.Point(0, 0);
-            this.labeltitle.Name = "labeltitle";
-            this.labeltitle.Size = new System.Drawing.Size(982, 63);
-            this.labeltitle.TabIndex = 0;
-            this.labeltitle.Text = "Students Management System";
-            this.labeltitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labeltitle.Click += new System.EventHandler(this.labeltitle_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.pictureBox6.Image = global::Management_application.Properties.Resources.calendar_clock_schedule_icon_icons_com_51085;
-            this.pictureBox6.Location = new System.Drawing.Point(505, 21);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(118, 101);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox5.Image = global::Management_application.Properties.Resources.ic_subject_128_28853;
-            this.pictureBox5.Location = new System.Drawing.Point(272, 21);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(118, 101);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.pictureBox4.Image = global::Management_application.Properties.Resources.iconfinder_511_student_notes_books_student_notes_4212903_114956;
-            this.pictureBox4.Location = new System.Drawing.Point(38, 21);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(117, 101);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // addstudent
             // 
             this.addstudent.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -312,61 +334,40 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // buttonexit
+            // label2
             // 
-            this.buttonexit.BackgroundImage = global::Management_application.Properties.Resources.exit_closethesession_close_63171;
-            this.buttonexit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonexit.Location = new System.Drawing.Point(35, 433);
-            this.buttonexit.Name = "buttonexit";
-            this.buttonexit.Size = new System.Drawing.Size(86, 77);
-            this.buttonexit.TabIndex = 4;
-            this.buttonexit.UseVisualStyleBackColor = true;
-            this.buttonexit.Click += new System.EventHandler(this.buttonexit_Click);
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(982, 25);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Menu";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // SchoolManagement
+            // paneltitle
             // 
-            this.SchoolManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.SchoolManagement.Image = global::Management_application.Properties.Resources.iconfinder_university_3992932_112615;
-            this.SchoolManagement.Location = new System.Drawing.Point(35, 339);
-            this.SchoolManagement.Name = "SchoolManagement";
-            this.SchoolManagement.Size = new System.Drawing.Size(86, 73);
-            this.SchoolManagement.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.SchoolManagement.TabIndex = 3;
-            this.SchoolManagement.TabStop = false;
+            this.paneltitle.Controls.Add(this.labeltitle);
+            this.paneltitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.paneltitle.Location = new System.Drawing.Point(0, 0);
+            this.paneltitle.Name = "paneltitle";
+            this.paneltitle.Size = new System.Drawing.Size(982, 63);
+            this.paneltitle.TabIndex = 0;
             // 
-            // TeacherManagement
+            // labeltitle
             // 
-            this.TeacherManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.TeacherManagement.Image = global::Management_application.Properties.Resources.teacher_education_school_lecture_student_icon_141984;
-            this.TeacherManagement.Location = new System.Drawing.Point(35, 236);
-            this.TeacherManagement.Name = "TeacherManagement";
-            this.TeacherManagement.Size = new System.Drawing.Size(86, 74);
-            this.TeacherManagement.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.TeacherManagement.TabIndex = 2;
-            this.TeacherManagement.TabStop = false;
-            // 
-            // StudentsManagement
-            // 
-            this.StudentsManagement.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.StudentsManagement.Image = global::Management_application.Properties.Resources.students;
-            this.StudentsManagement.Location = new System.Drawing.Point(35, 141);
-            this.StudentsManagement.Name = "StudentsManagement";
-            this.StudentsManagement.Size = new System.Drawing.Size(86, 74);
-            this.StudentsManagement.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.StudentsManagement.TabIndex = 1;
-            this.StudentsManagement.TabStop = false;
-            this.StudentsManagement.Click += new System.EventHandler(this.StudentsManagement_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Management_application.Properties.Resources.Logo_PTIT;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(139, 108);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
+            this.labeltitle.BackColor = System.Drawing.Color.PowderBlue;
+            this.labeltitle.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labeltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeltitle.Location = new System.Drawing.Point(0, 0);
+            this.labeltitle.Name = "labeltitle";
+            this.labeltitle.Size = new System.Drawing.Size(982, 63);
+            this.labeltitle.TabIndex = 0;
+            this.labeltitle.Text = "Students Management System";
+            this.labeltitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labeltitle.Click += new System.EventHandler(this.labeltitle_Click);
             // 
             // applicationstudent
             // 
@@ -382,21 +383,21 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Management System ";
             this.panelmenu.ResumeLayout(false);
-            this.panelbackground.ResumeLayout(false);
-            this.panelstudent.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.paneltitle.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.addstudent)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SchoolManagement)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TeacherManagement)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudentsManagement)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panelbackground.ResumeLayout(false);
+            this.panelstudent.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.addstudent)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.paneltitle.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -415,7 +416,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox addstudent;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox SchoolManagement;
         private System.Windows.Forms.PictureBox TeacherManagement;
         private System.Windows.Forms.PictureBox StudentsManagement;
@@ -424,9 +424,10 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonexit;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
