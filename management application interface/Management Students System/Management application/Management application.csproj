@@ -87,6 +87,12 @@
       <DependentUpon>RemoveStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Students.cs" />
+    <Compile Include="UpdateStudentform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateStudentform.Designer.cs">
+      <DependentUpon>UpdateStudentform.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Addstudent.resx">
       <DependentUpon>Addstudent.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RemoveStudent.resx">
       <DependentUpon>RemoveStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStudentform.resx">
+      <DependentUpon>UpdateStudentform.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -161,6 +170,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\exit_closethesession_close_63171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z5443951204098_c899cb392856b0049f81dcca5585bdfb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z5443962888736_460bdda320077b9f2b6b7425861cc1bb.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

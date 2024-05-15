@@ -199,5 +199,25 @@ namespace Management_application.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap z5443951204098_c899cb392856b0049f81dcca5585bdfb {
+            get {
+                object obj = ResourceManager.GetObject("z5443951204098_c899cb392856b0049f81dcca5585bdfb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap z5443962888736_460bdda320077b9f2b6b7425861cc1bb {
+            get {
+                object obj = ResourceManager.GetObject("z5443962888736_460bdda320077b9f2b6b7425861cc1bb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

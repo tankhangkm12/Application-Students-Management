@@ -57,36 +57,42 @@ namespace Management_application
             accountList=managementAccount.getAccountsList();
             errorProvider1.SetError(textBoxusername, "");
             errorProvider1.SetError(textBoxpassword, "");
+            errorProvider1.SetError(labelshowverification, "");
 
+            List<Task> tasks = new List<Task>();
             foreach (Account user in accountList)
             {
-                errorProvider1.SetError(labelshowverification, "");
-                if (textBoxusername.Text==user.Username && textBoxpassword.Text==user.Password && textBoxverification.Text==labelshowverification.Text)
+                Task tast = Task.Run(() =>
                 {
-                    DialogResult = DialogResult.OK;
-                    MessageBox.Show("Login successfull!","Notifications",MessageBoxButtons.OK);
-                }
-                else
-                {
-                    if (textBoxusername.Text != user.Username)
+                    if (textBoxusername.Text == user.Username && textBoxpassword.Text == user.Password && textBoxverification.Text == labelshowverification.Text)
                     {
-                        errorProvider1.SetError(textBoxusername, "Username not true ! ");
-                    }    
-                    if (textBoxpassword.Text != user.Password)
-                    {
-                        errorProvider1.SetError(textBoxpassword, "Password not true ! ");
+                        DialogResult = DialogResult.OK;
+                        MessageBox.Show("Login successfull!", "Notifications", MessageBoxButtons.OK);
                     }
-                    if (!string.IsNullOrEmpty(textBoxverification.Text))
+                    else
                     {
-                        errorProvider1.SetError(labelshowverification, "Please entered verification ! ");
-                    }    
-                    if (textBoxverification.Text != labelshowverification.Text)
-                    {
-                        errorProvider1.SetError(labelshowverification, "Verification not true ! ");
-                    }    
-                } 
-                    
-            } 
+                        if (textBoxusername.Text != user.Username)
+                        {
+                            errorProvider1.SetError(textBoxusername, "Username not true ! ");
+                        }
+                        if (textBoxpassword.Text != user.Password)
+                        {
+                            errorProvider1.SetError(textBoxpassword, "Password not true ! ");
+                        }
+                        if (!string.IsNullOrEmpty(textBoxverification.Text))
+                        {
+                            errorProvider1.SetError(labelshowverification, "Please entered verification ! ");
+                        }
+                        if (textBoxverification.Text != labelshowverification.Text)
+                        {
+                            errorProvider1.SetError(labelshowverification, "Verification not true ! ");
+                        }
+                    }
+
+                });
+                tasks.Add(tast);                   
+            }
+            await Task.WhenAll(tasks);
             Random random = new Random();
             labelshowverification.Text=random.Next(100000,1000000).ToString();
 

@@ -32,97 +32,63 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelenteredlogin = new System.Windows.Forms.Panel();
-            this.labellogin = new System.Windows.Forms.Label();
             this.labelshowverification = new System.Windows.Forms.Label();
-            this.labelverification = new System.Windows.Forms.Label();
-            this.labelpassword = new System.Windows.Forms.Label();
-            this.labelusername = new System.Windows.Forms.Label();
             this.textBoxverification = new System.Windows.Forms.TextBox();
             this.textBoxpassword = new System.Windows.Forms.TextBox();
             this.textBoxusername = new System.Windows.Forms.TextBox();
+            this.labellogin = new System.Windows.Forms.Label();
+            this.labelverification = new System.Windows.Forms.Label();
+            this.labelpassword = new System.Windows.Forms.Label();
+            this.labelusername = new System.Windows.Forms.Label();
             this.buttonexit = new System.Windows.Forms.Button();
             this.buttonregister = new System.Windows.Forms.Button();
             this.buttonlogin = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.paneltitlelogin = new System.Windows.Forms.Panel();
             this.labeltitlelogin = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             this.panelenteredlogin.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.paneltitlelogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.panelenteredlogin);
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.paneltitlelogin);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panelenteredlogin
             // 
-            this.panelenteredlogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panelenteredlogin.Controls.Add(this.labellogin);
+            this.panelenteredlogin.BackColor = System.Drawing.Color.Transparent;
             this.panelenteredlogin.Controls.Add(this.labelshowverification);
-            this.panelenteredlogin.Controls.Add(this.labelverification);
-            this.panelenteredlogin.Controls.Add(this.labelpassword);
-            this.panelenteredlogin.Controls.Add(this.labelusername);
             this.panelenteredlogin.Controls.Add(this.textBoxverification);
             this.panelenteredlogin.Controls.Add(this.textBoxpassword);
             this.panelenteredlogin.Controls.Add(this.textBoxusername);
+            this.panelenteredlogin.Controls.Add(this.labellogin);
+            this.panelenteredlogin.Controls.Add(this.labelverification);
+            this.panelenteredlogin.Controls.Add(this.labelpassword);
+            this.panelenteredlogin.Controls.Add(this.labelusername);
             this.panelenteredlogin.Controls.Add(this.buttonexit);
             this.panelenteredlogin.Controls.Add(this.buttonregister);
             this.panelenteredlogin.Controls.Add(this.buttonlogin);
             resources.ApplyResources(this.panelenteredlogin, "panelenteredlogin");
-            this.panelenteredlogin.ForeColor = System.Drawing.Color.Snow;
+            this.panelenteredlogin.ForeColor = System.Drawing.Color.Blue;
             this.panelenteredlogin.Name = "panelenteredlogin";
-            // 
-            // labellogin
-            // 
-            resources.ApplyResources(this.labellogin, "labellogin");
-            this.labellogin.ForeColor = System.Drawing.Color.Snow;
-            this.labellogin.Name = "labellogin";
             // 
             // labelshowverification
             // 
             resources.ApplyResources(this.labelshowverification, "labelshowverification");
-            this.labelshowverification.BackColor = System.Drawing.Color.White;
-            this.labelshowverification.CausesValidation = false;
-            this.labelshowverification.ForeColor = System.Drawing.Color.Black;
+            this.labelshowverification.ForeColor = System.Drawing.Color.Lime;
             this.labelshowverification.Name = "labelshowverification";
-            this.labelshowverification.Tag = "";
-            this.labelshowverification.Click += new System.EventHandler(this.labelshowverification_Click);
-            // 
-            // labelverification
-            // 
-            resources.ApplyResources(this.labelverification, "labelverification");
-            this.labelverification.ForeColor = System.Drawing.Color.Snow;
-            this.labelverification.Name = "labelverification";
-            this.labelverification.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // labelpassword
-            // 
-            resources.ApplyResources(this.labelpassword, "labelpassword");
-            this.labelpassword.ForeColor = System.Drawing.Color.Snow;
-            this.labelpassword.Name = "labelpassword";
-            // 
-            // labelusername
-            // 
-            resources.ApplyResources(this.labelusername, "labelusername");
-            this.labelusername.ForeColor = System.Drawing.Color.Snow;
-            this.labelusername.Name = "labelusername";
             // 
             // textBoxverification
             // 
             resources.ApplyResources(this.textBoxverification, "textBoxverification");
             this.textBoxverification.Name = "textBoxverification";
-            this.textBoxverification.DragEnter += new System.Windows.Forms.DragEventHandler(this.textBoxverification_DragEnter);
             // 
             // textBoxpassword
             // 
@@ -133,6 +99,31 @@
             // 
             resources.ApplyResources(this.textBoxusername, "textBoxusername");
             this.textBoxusername.Name = "textBoxusername";
+            // 
+            // labellogin
+            // 
+            resources.ApplyResources(this.labellogin, "labellogin");
+            this.labellogin.ForeColor = System.Drawing.Color.Lime;
+            this.labellogin.Name = "labellogin";
+            // 
+            // labelverification
+            // 
+            resources.ApplyResources(this.labelverification, "labelverification");
+            this.labelverification.ForeColor = System.Drawing.Color.Lime;
+            this.labelverification.Name = "labelverification";
+            this.labelverification.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labelpassword
+            // 
+            resources.ApplyResources(this.labelpassword, "labelpassword");
+            this.labelpassword.ForeColor = System.Drawing.Color.Lime;
+            this.labelpassword.Name = "labelpassword";
+            // 
+            // labelusername
+            // 
+            resources.ApplyResources(this.labelusername, "labelusername");
+            this.labelusername.ForeColor = System.Drawing.Color.Lime;
+            this.labelusername.Name = "labelusername";
             // 
             // buttonexit
             // 
@@ -161,30 +152,18 @@
             this.buttonlogin.UseVisualStyleBackColor = false;
             this.buttonlogin.Click += new System.EventHandler(this.buttonlogin_Click);
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.pictureBox1);
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
-            // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Image = global::Management_application.Properties.Resources._3094352;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
             // paneltitlelogin
             // 
+            this.paneltitlelogin.BackColor = System.Drawing.Color.Transparent;
             this.paneltitlelogin.Controls.Add(this.labeltitlelogin);
             resources.ApplyResources(this.paneltitlelogin, "paneltitlelogin");
             this.paneltitlelogin.Name = "paneltitlelogin";
             // 
             // labeltitlelogin
             // 
-            this.labeltitlelogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.labeltitlelogin.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.labeltitlelogin, "labeltitlelogin");
-            this.labeltitlelogin.ForeColor = System.Drawing.Color.Red;
+            this.labeltitlelogin.ForeColor = System.Drawing.Color.Lime;
             this.labeltitlelogin.Name = "labeltitlelogin";
             this.labeltitlelogin.Click += new System.EventHandler(this.labeltitlelogin_Click);
             // 
@@ -206,8 +185,6 @@
             this.panel1.ResumeLayout(false);
             this.panelenteredlogin.ResumeLayout(false);
             this.panelenteredlogin.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.paneltitlelogin.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
@@ -217,9 +194,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel paneltitlelogin;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelenteredlogin;
         private System.Windows.Forms.Button buttonexit;
         private System.Windows.Forms.Button buttonregister;
@@ -228,12 +203,12 @@
         private System.Windows.Forms.Label labelverification;
         private System.Windows.Forms.Label labelpassword;
         private System.Windows.Forms.Label labelusername;
+        private System.Windows.Forms.Label labellogin;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label labelshowverification;
         private System.Windows.Forms.TextBox textBoxverification;
         private System.Windows.Forms.TextBox textBoxpassword;
         private System.Windows.Forms.TextBox textBoxusername;
-        private System.Windows.Forms.Label labelshowverification;
-        private System.Windows.Forms.Label labellogin;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 

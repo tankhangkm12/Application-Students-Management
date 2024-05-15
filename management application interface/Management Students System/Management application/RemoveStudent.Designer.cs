@@ -49,7 +49,7 @@
             // buttonexit
             // 
             this.buttonexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonexit.Location = new System.Drawing.Point(842, 367);
+            this.buttonexit.Location = new System.Drawing.Point(842, 345);
             this.buttonexit.Name = "buttonexit";
             this.buttonexit.Size = new System.Drawing.Size(196, 48);
             this.buttonexit.TabIndex = 1;
@@ -60,7 +60,7 @@
             // buttondelete
             // 
             this.buttondelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttondelete.Location = new System.Drawing.Point(842, 106);
+            this.buttondelete.Location = new System.Drawing.Point(842, 135);
             this.buttondelete.Name = "buttondelete";
             this.buttondelete.Size = new System.Drawing.Size(196, 48);
             this.buttondelete.TabIndex = 1;

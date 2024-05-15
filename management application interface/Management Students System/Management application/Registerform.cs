@@ -16,6 +16,7 @@ namespace Management_application
         public Registerform()
         {
             InitializeComponent();
+            textBox1.Focus();
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -25,17 +26,42 @@ namespace Management_application
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
+            {
+                labelregister.Visible = false;
+                
+            }
+            else
+            {
+                labelregister.Visible = true;
+            }
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
+            {
+                labelregister.Visible = false;
+                
+            }
+            else
+            {
+                labelregister.Visible = true;
+            }
+
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
+            {
+                labelregister.Visible = false;
+              
+            }
+            else
+            {
+                labelregister.Visible = true;
+            }
         }
 
         private void buttonexit_Click(object sender, EventArgs e)
@@ -47,6 +73,7 @@ namespace Management_application
         {
             errorProvider1.SetError(textBox1, "");
             errorProvider1.SetError(textBox2, "");
+            errorProvider1.SetError(textBox3, "");
             if (textBox1.Text.Length>7 && textBox2.Text.Length>7 && textBox3.Text.Length>7)
             {
                 errorProvider1.SetError(textBox3, "");
@@ -101,6 +128,26 @@ namespace Management_application
         private void textBox3_KeyDown(object sender, KeyEventArgs e)
         {
             buttonregister_Click(sender, e);
+        }
+
+        private void buttonexit_MouseHover(object sender, EventArgs e)
+        {
+            buttonexit.BackColor = Color.Red;
+        }
+
+        private void buttonexit_MouseLeave(object sender, EventArgs e)
+        {
+            buttonexit.BackColor = Color.DarkGray;
+        }
+
+        private void labelregister_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Registerform_Load(object sender, EventArgs e)
+        {
+            labelregister.Visible=true;
         }
     }
 }
