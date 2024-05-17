@@ -1,0 +1,51 @@
+D:\management application interface\Management Students System\Management application\bin\Debug\Management application.exe.config
+D:\management application interface\Management Students System\Management application\bin\Debug\Management application.exe
+D:\management application interface\Management Students System\Management application\bin\Debug\Management application.pdb
+D:\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.AssemblyReference.cache
+D:\management application interface\Management Students System\Management application\obj\Debug\Management_application.Properties.Resources.resources
+D:\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.GenerateResource.cache
+D:\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.CoreCompileInputs.cache
+D:\management application interface\Management Students System\Management application\obj\Debug\Management application.exe
+D:\management application interface\Management Students System\Management application\obj\Debug\Management application.pdb
+D:\management application interface\Management Students System\Management application\obj\Debug\Management_application.Login.resources
+D:\management application interface\Management Students System\Management application\obj\Debug\Management_application.applicationstudent.resources
+D:\management application interface\Management Students System\Management application\obj\Debug\Management_application.addstudent.resources
+D:\management application interface\Management Students System\Management application\bin\Debug\Newtonsoft.Json.dll
+D:\management application interface\Management Students System\Management application\bin\Debug\Newtonsoft.Json.xml
+D:\management application interface\Management Students System\Management application\obj\Debug\Manageme.980EF116.Up2Date
+D:\project10\management application interface\Management Students System\Management application\bin\Debug\Management application.exe.config
+D:\project10\management application interface\Management Students System\Management application\bin\Debug\Management application.exe
+D:\project10\management application interface\Management Students System\Management application\bin\Debug\Management application.pdb
+D:\project10\management application interface\Management Students System\Management application\bin\Debug\Newtonsoft.Json.dll
+D:\project10\management application interface\Management Students System\Management application\bin\Debug\Newtonsoft.Json.xml
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.AssemblyReference.cache
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.Addstudent.resources
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.applicationstudent.resources
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.Login.resources
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.Properties.Resources.resources
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.GenerateResource.cache
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.CoreCompileInputs.cache
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Manageme.980EF116.Up2Date
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management application.exe
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management application.pdb
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.Registerform.resources
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.RemoveStudent.resources
+D:\project10\management application interface\Management Students System\Management application\obj\Debug\Management_application.UpdateStudentform.resources
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\bin\Debug\Management application.exe.config
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\bin\Debug\Management application.exe
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\bin\Debug\Management application.pdb
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\bin\Debug\Newtonsoft.Json.dll
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\bin\Debug\Newtonsoft.Json.xml
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.AssemblyReference.cache
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.Addstudent.resources
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.applicationstudent.resources
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.Login.resources
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.Properties.Resources.resources
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.Registerform.resources
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.RemoveStudent.resources
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.UpdateStudentform.resources
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.GenerateResource.cache
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.CoreCompileInputs.cache
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Manageme.980EF116.Up2Date
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.exe
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.pdb
