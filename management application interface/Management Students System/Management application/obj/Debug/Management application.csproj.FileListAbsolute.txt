@@ -43,9 +43,9 @@ D:\studentmanage c#\Application-Students-Management-project\management applicati
 D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.Properties.Resources.resources
 D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.Registerform.resources
 D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.RemoveStudent.resources
-D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.UpdateStudentform.resources
 D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.GenerateResource.cache
 D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.csproj.CoreCompileInputs.cache
 D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Manageme.980EF116.Up2Date
 D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.exe
 D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management application.pdb
+D:\studentmanage c#\Application-Students-Management-project\management application interface\Management Students System\Management application\obj\Debug\Management_application.InformationForm.resources

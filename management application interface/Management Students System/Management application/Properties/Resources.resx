@@ -121,11 +121,11 @@
   <data name="students" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\students.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="71ROrdBqoGL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\71ROrdBqoGL._AC_UF1000,1000_QL80_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="dfbouue-a609b605-d553-4450-b56e-9cd707317231" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dfbouue-a609b605-d553-4450-b56e-9cd707317231.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9145838" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9145838.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder-university-3992932_112615" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder-university-3992932_112615.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,17 +136,17 @@
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dfbouue-a609b605-d553-4450-b56e-9cd7073172311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dfbouue-a609b605-d553-4450-b56e-9cd7073172311.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="teacher_education_school_lecture_student_icon_141984" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teacher_education_school_lecture_student_icon_141984.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="calendar_clock_schedule_icon-icons.com_51085" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar_clock_schedule_icon-icons.com_51085.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo_PTIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo_PTIT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ic_subject_128_28853" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_subject_128_28853.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="z5443951204098_c899cb392856b0049f81dcca5585bdfb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\z5443951204098_c899cb392856b0049f81dcca5585bdfb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,14 +154,17 @@
   <data name="exit_closethesession_close_63171" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exit_closethesession_close_63171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="15825212694842" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\15825212694842.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="z5443962888736_460bdda320077b9f2b6b7425861cc1bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\z5443962888736_460bdda320077b9f2b6b7425861cc1bb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="9145838" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9145838.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="15825212694842" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15825212694842.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_PTIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_PTIT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="71ROrdBqoGL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\71ROrdBqoGL._AC_UF1000,1000_QL80_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder-511-student-notes-books-student-notes-4212903_114956" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder-511-student-notes-books-student-notes-4212903_114956.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,13 +181,13 @@
   <data name="delete_delete_deleteusers_delete_male_user_maleclient_2348" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_delete_deleteusers_delete_male_user_maleclient_2348.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_subject_128_28853" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_subject_128_28853.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="business_application_addmale_useradd_insert_add_user_client_2312" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\business_application_addmale_useradd_insert_add_user_client_2312.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dfbouue-a609b605-d553-4450-b56e-9cd7073172311" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dfbouue-a609b605-d553-4450-b56e-9cd7073172311.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo_PTIT_University" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_PTIT_University.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

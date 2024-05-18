@@ -63,6 +63,18 @@
     <Compile Include="applicationstudent.Designer.cs">
       <DependentUpon>applicationstudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="InformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformationForm.Designer.cs">
+      <DependentUpon>InformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Infostudentcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infostudentcs.Designer.cs">
+      <DependentUpon>Infostudentcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,17 +99,17 @@
       <DependentUpon>RemoveStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Students.cs" />
-    <Compile Include="UpdateStudentform.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpdateStudentform.Designer.cs">
-      <DependentUpon>UpdateStudentform.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Addstudent.resx">
       <DependentUpon>Addstudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="applicationstudent.resx">
       <DependentUpon>applicationstudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationForm.resx">
+      <DependentUpon>InformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infostudentcs.resx">
+      <DependentUpon>Infostudentcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -117,9 +129,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RemoveStudent.resx">
       <DependentUpon>RemoveStudent.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpdateStudentform.resx">
-      <DependentUpon>UpdateStudentform.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

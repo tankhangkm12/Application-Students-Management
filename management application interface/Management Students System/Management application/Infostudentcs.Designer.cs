@@ -1,6 +1,6 @@
 ﻿namespace Management_application
 {
-    partial class UpdateStudentform
+    partial class Infostudentcs
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // UpdateStudentform
+            // Infostudentcs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1106, 683);
-            this.Name = "UpdateStudentform";
-            this.Text = "UpdateStudentform";
+            this.ClientSize = new System.Drawing.Size(1103, 714);
+            this.Name = "Infostudentcs";
+            this.Text = "Infostudentcs";
             this.ResumeLayout(false);
 
         }

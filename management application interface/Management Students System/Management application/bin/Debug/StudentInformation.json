@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "StudentID": null,
+    "Fullname": "thanh tân",
+    "IDcard": "051205005311",
+    "Email": null,
+    "Phone": "0917811763",
+    "Address": null,
+    "Gender": "Male",
+    "Major": "Kỹ thuật Mạng - KTMANG",
+    "Semester": null,
+    "Status": null,
+    "codestudent": 184640,
+    "Birthday": "12-01-2005"
+  },
+  {
+    "StudentID": null,
+    "Fullname": "Huệ Chi",
+    "IDcard": "051205005311",
+    "Email": null,
+    "Phone": "0917811763",
+    "Address": null,
+    "Gender": "Female",
+    "Major": "Marketing - MARKT",
+    "Semester": null,
+    "Status": null,
+    "codestudent": 958615,
+    "Birthday": "12-01-2006"
+  },
+  {
+    "StudentID": null,
+    "Fullname": "Hoàng Khang",
+    "IDcard": "051205005311",
+    "Email": null,
+    "Phone": "0917811763",
+    "Address": null,
+    "Gender": "Male",
+    "Major": "Kỹ thuật Phần mềm - KTPHANM",
+    "Semester": null,
+    "Status": null,
+    "codestudent": 107996,
+    "Birthday": "12-01-2006"
+  }
+]

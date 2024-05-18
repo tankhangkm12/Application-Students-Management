@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Management_application
 {
-    public partial class UpdateStudentform : Form
+    public partial class Infostudentcs : Form
     {
-        public UpdateStudentform()
+        public Infostudentcs()
         {
             InitializeComponent();
+        }
+
+        private void context_Popup(object sender, EventArgs e)
+        {
+
         }
     }
 }

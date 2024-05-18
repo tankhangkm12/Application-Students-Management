@@ -37,11 +37,6 @@ namespace Management_application
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void StudentsManagement_Click(object sender, EventArgs e)
         {
             panelstudent.Visible = true;
@@ -69,6 +64,13 @@ namespace Management_application
         {
             RemoveStudent removeStudent = new RemoveStudent();
             removeStudent.ShowDialog();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            InformationForm informationform = new InformationForm();
+            informationform.ShowDialog();
+
         }
     }
 }
